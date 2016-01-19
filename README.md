@@ -1,5 +1,5 @@
-# networkFlambe
-A teaching platform that caters to educating people about neural networks.
+# NeuralQuest
+A teaching platform that caters to educating developers about neural networks.
 
 ## Team
 
@@ -22,11 +22,7 @@ A teaching platform that caters to educating people about neural networks.
 1. [Contributing](#contributing)
 
 ## Usage
-
-1. __[Companion package must be installed](https://github.com/networkFlambe/neuralquestServer)__ - [neuralquestServer](https://github.com/networkFlambe/neuralquestServer) Calls to the neural network will be answered by this server.
-
-1. To use your own Firebase files for unique lesson content, change the URL in /app/config/constant.js.
-
+Check out [NeuralQuest](https://neuralquest.firebaseapp.com/) to see the app in action and experience it as a user.  See Development below for instructions that will let you run your own version of the app.
 
 ## Requirements
 
@@ -34,6 +30,16 @@ A teaching platform that caters to educating people about neural networks.
 - npm 2.14
 
 ## Development
+
+1. Fork or download this repo.
+
+2. __Fork or download the server to run API locally__ - Calls to the neural network through the code editor elements will be answered by [this server](https://github.com/networkFlambe/neuralquestServer).
+
+3. To use your own Firebase files for unique lesson content, change the URL in /app/config/constant.js.
+
+4. From within the root directory `npm install` and `bower install`.
+
+5. From within the root directory `grunt serve` to start the client.
 
 ### Installing Dependencies
 
