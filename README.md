@@ -25,7 +25,7 @@ A teaching platform that caters to educating people about neural networks.
 
 1. __[Companion package must be installed](https://github.com/networkFlambe/neuralquestServer)__ - [neuralquestServer](https://github.com/networkFlambe/neuralquestServer) Calls to the neural network will be answered by this server.
 
-1. To switch your own firebase files change the constant in app/common/root.service.js
+1. To use your own Firebase files for unique lesson content, change the URL in /app/config/constant.js.
 
 
 ## Requirements
